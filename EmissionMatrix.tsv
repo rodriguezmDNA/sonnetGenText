@@ -1,0 +1,7 @@
+StateFirstProb	StateBody	StateSentenceStart	StateSentenceEnd	StateFinalProb	STOP
+StateFirstProb	0	1	0	0	0	0
+StateBody	0	0.299408652349829	0	0.466542172424525	0.234049175225646	0
+StateSentenceStart	0	1	0	0	0	0
+StateSentenceEnd	0	0	0.920323685029567	0	0	0.0796763149704326
+StateFinalProb	0	0	0	0	0	1
+STOP	0	0	0	0	0	1
