@@ -56,7 +56,7 @@
                 import json
                 from pyodide.http import open_url
                 
-                display("Starting")
+                
                 
                 url = "https://raw.githubusercontent.com/rodriguezmDNA/sonnetGenText/refs/heads/main/EmissionMatrix.tsv"
                 EmissionMatrix = pd.read_csv(open_url(url), sep="\t")
@@ -240,7 +240,7 @@
 
             <div>
                 
-                <button id="get_sonnet" py-click="get_sonnet">Get a new Sonnet</button>
+                <!-- <button id="get_sonnet" py-click="get_sonnet">Get a new Sonnet</button> -->
             </div>
 
             <div id="sonnet"></div>
